@@ -44,12 +44,12 @@ The app will run on `http://localhost:3000`.
 
 ### 1️⃣ Build Docker Image
 ```bash
-sudo docker build -t <your-dockerhub-username>/dockerproject:latest .
+sudo docker build -t faisalzama0786/dockerproject:latest .
 ```
 
 ### 2️⃣ Run Docker Container
 ```bash
-sudo docker run -dp 3000:80 <your-dockerhub-username>/dockerproject:latest
+sudo docker run -dp 3000:80 faisalzama0786/dockerproject:latest
 ```
 
 Now visit: 👉 `http://<your-server-ip>:3000`
@@ -61,8 +61,8 @@ Now visit: 👉 `http://<your-server-ip>:3000`
 I also pushed the image to **Docker Hub**, so you can directly pull and run:
 
 ```bash
-docker pull <your-dockerhub-username>/dockerproject:latest
-docker run -dp 3000:80 <your-dockerhub-username>/dockerproject:latest
+docker pull faisalzama0786/dockerproject:latest
+docker run -dp 3000:80 faisalzama0786/dockerproject:latest
 ```
 
 ---
